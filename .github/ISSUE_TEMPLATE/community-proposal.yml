@@ -1,0 +1,51 @@
+name: Community proposal / 社区提案
+description: Propose a non-sensitive community decision / 提出非敏感社区决定
+title: "[Proposal] "
+labels: ["proposal"]
+body:
+  - type: markdown
+    attributes:
+      value: "Do not submit vulnerabilities, conduct cases, secrets, personal data, or recovery details. / 请勿提交漏洞、CoC 案件、secret、个人数据或恢复细节。"
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type / 类型
+      options: [Information / 信息, Discussion / 讨论, Decision / 决定]
+    validations: {required: true}
+  - type: textarea
+    id: problem
+    attributes: {label: Problem and evidence / 问题与证据}
+    validations: {required: true}
+  - type: textarea
+    id: outcome
+    attributes: {label: Requested outcome / 希望得到的结果}
+    validations: {required: true}
+  - type: textarea
+    id: authority
+    attributes:
+      label: Affected assets and authority / 涉及资产与授权
+      description: Who controls the affected repositories, accounts, brand, or funds? / 谁控制相关仓库、账号、品牌或资金？
+    validations: {required: true}
+  - type: textarea
+    id: impact
+    attributes: {label: Affected groups and security, rights, speed risks / 受影响群体及安全、权利、速度风险}
+    validations: {required: true}
+  - type: textarea
+    id: alternatives
+    attributes: {label: Alternatives, reversibility, and rollback / 替代方案、可逆性与回滚}
+    validations: {required: true}
+  - type: textarea
+    id: conflicts
+    attributes: {label: Conflicts of interest / 利益冲突}
+    validations: {required: true}
+  - type: input
+    id: owner
+    attributes: {label: Proposed owner and review date / 建议负责人和复审日}
+    validations: {required: true}
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: Public record / 公开记录
+      options:
+        - label: I understand this may remain a proposal until ratified. / 我理解相关控制者确认前它可能始终只是提案。
+          required: true
