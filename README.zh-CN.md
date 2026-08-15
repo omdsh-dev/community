@@ -16,6 +16,21 @@
 
 请阅读[治理规则](GOVERNANCE.zh-CN.md)、[贡献指南](CONTRIBUTING.zh-CN.md)、[行为准则](CODE_OF_CONDUCT.zh-CN.md)和[安全政策](SECURITY.zh-CN.md)。
 
+## 社区地图
+
+| 区域 | 用途 |
+|---|---|
+| [新人入门](onboarding/README.zh-CN.md) | 第一次贡献和参与路径 |
+| [项目地图](projects/README.zh-CN.md) | 自治项目导航和生命周期 |
+| [角色责任](roles/README.zh-CN.md) | 责任和按仓库授权 |
+| [社区提案](proposals/README.zh-CN.md) | 跨项目提案和确认 |
+| [决定台账](decisions/README.zh-CN.md) | 追加式决定与失效记录 |
+| [兼容协作](compatibility/README.zh-CN.md) | 上游 breaking change 协调 |
+| [工作组](working-groups/README.zh-CN.md) | 临时、面向产物的协作 |
+| [生态服务](services/README.zh-CN.md) | 多市场、多目录透明度 |
+| [社区会议](meetings/README.zh-CN.md) | 非约束议程和纪要 |
+| [国际化](i18n/README.zh-CN.md) | 默认英文、中文独立文档 |
+
 ## 如何参与
 
 - 展示插件或项目：在 **Show and tell** Discussion 发帖，标题以 `[Plugin]` 或 `[Project]` 开头。

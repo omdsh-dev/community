@@ -1,27 +1,27 @@
-name: Upstream compatibility report / 上游兼容报告
-description: Report a DeepSeek Harness change affecting community projects / 报告影响社区项目的上游变化
+name: Upstream compatibility report
+description: Report a DeepSeek Harness change affecting community projects
 title: "[Compatibility] "
 labels: ["compatibility"]
 body:
   - type: input
     id: upstream
-    attributes: {label: Upstream version or commit / 上游版本或 Commit}
+    attributes: {label: Upstream version or commit}
     validations: {required: true}
   - type: textarea
     id: evidence
-    attributes: {label: Change and evidence / 变化与证据, description: "Do not include secrets or unpublished vulnerabilities. / 不要包含 secret 或未公开漏洞。"}
+    attributes: {label: Change and evidence, description: "Do not include secrets or unpublished vulnerabilities."}
     validations: {required: true}
   - type: textarea
     id: affected
-    attributes: {label: Affected projects and versions / 受影响项目与版本}
+    attributes: {label: Affected projects and versions}
     validations: {required: true}
   - type: dropdown
     id: status
     attributes:
-      label: Current state / 当前状态
-      options: [Supported / 支持, Degraded / 降级, Paused / 暂停, Unknown / 未知]
+      label: Current state
+      options: [Supported, Degraded, Paused, Unknown]
     validations: {required: true}
   - type: textarea
     id: workaround
-    attributes: {label: Workaround, owner, and next update / 临时方案、负责人和下次更新}
+    attributes: {label: Workaround, owner, and next update}
     validations: {required: true}

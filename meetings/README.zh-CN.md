@@ -6,4 +6,4 @@
 
 会前公布时间和时区、链接、议题截止、异步入口、主持、记录、计时、CoC 保密联系人、预读、最多三个决定议题、决策规则和24–48小时纪要纠错窗口。
 
-安全细节、CoC 报告、个人数据、secret 和恢复信息不得进入公开议程或纪要。请使用 [`agenda-template.md`](agenda-template.md) 和 [`minutes-template.md`](minutes-template.md)。
+安全细节、CoC 报告、个人数据、secret 和恢复信息不得进入公开议程或纪要。请使用 [`agenda-template.zh-CN.md`](agenda-template.zh-CN.md) 和 [`minutes-template.zh-CN.md`](minutes-template.zh-CN.md)。

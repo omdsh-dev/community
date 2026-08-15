@@ -1,8 +1,8 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Questions and ideas / 问答与想法
+  - name: Questions and ideas
     url: https://github.com/omdsh-dev/community/discussions
-    about: Use Discussions for public questions and ideas. / 公开问答和想法请使用 Discussions。
-  - name: Sensitive security or conduct report / 敏感安全或 CoC 报告
+    about: Use Discussions for public questions and ideas.
+  - name: Sensitive security or conduct report
     url: https://github.com/omdsh-dev/community/blob/main/SECURITY.md
-    about: Do not file a public issue. / 请勿提交公开 Issue。
+    about: Do not file a public issue; follow the private reporting policy.

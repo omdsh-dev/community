@@ -1,6 +1,6 @@
 # Community Meetings
 
-[简体中文](README.zh-CN.md) | English
+[Chinese](README.zh-CN.md) | English
 
 Community calls are non-binding unless the applicable asset controller delegated authority in advance. Otherwise outcomes are proposals awaiting asynchronous ratification.
 

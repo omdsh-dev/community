@@ -1,6 +1,6 @@
 # Security Policy
 
-[简体中文](SECURITY.zh-CN.md) | English
+[Chinese](SECURITY.zh-CN.md) | English
 
 Never report vulnerabilities, credentials, private data, recovery details, or active abuse in a public issue, Discussion, meeting, or minutes.
 

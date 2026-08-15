@@ -1,6 +1,6 @@
 # Code of Conduct
 
-[简体中文](CODE_OF_CONDUCT.zh-CN.md) | English
+[Chinese](CODE_OF_CONDUCT.zh-CN.md) | English
 
 We welcome people regardless of background, identity, experience, employer, language, or participation level. Be respectful, discuss ideas rather than people, give actionable feedback, respect privacy, and make space for newcomers and dissent.
 

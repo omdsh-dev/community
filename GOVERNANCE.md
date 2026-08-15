@@ -1,6 +1,6 @@
 # Community Governance — 30-Day Trial Proposal
 
-[简体中文](GOVERNANCE.zh-CN.md) | English
+[Chinese](GOVERNANCE.zh-CN.md) | English
 
 oh-my-dsh is a shared collaboration layer, not the governing committee of a plugin marketplace. It coordinates common boundaries, contribution paths, upstream compatibility, public decisions, safety, and conduct while preserving project autonomy and a plural ecosystem.
 

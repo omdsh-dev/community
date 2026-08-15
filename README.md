@@ -1,6 +1,6 @@
 # omdsh-dev Community
 
-[简体中文](README.zh-CN.md) | English
+[Chinese](README.zh-CN.md) | English
 
 `omdsh-dev` is the public collaboration hub around [DeepSeek Harness](https://github.com/deepseek-ai/deepseek-harness): plugins, tools, distributions, compatibility work, shared practices, and community proposals.
 
@@ -15,6 +15,21 @@ We are unofficial and independent. We are not affiliated with, authorized by, pa
 - **Lightweight by default.** Reversible routine work moves quickly; security, root assets, conduct cases, and other high-impact matters receive additional process.
 
 Read [Governance](GOVERNANCE.md), [Contributing](CONTRIBUTING.md), [Code of Conduct](CODE_OF_CONDUCT.md), and [Security](SECURITY.md).
+
+## Community map
+
+| Area | Purpose |
+|---|---|
+| [Onboarding](onboarding/README.md) | First contribution and newcomer route |
+| [Projects](projects/README.md) | Autonomous project navigation and lifecycle |
+| [Roles](roles/README.md) | Responsibility and repository-scoped access |
+| [Proposals](proposals/README.md) | Cross-project proposals and ratification |
+| [Decisions](decisions/README.md) | Append-only decision and expiry records |
+| [Compatibility](compatibility/README.md) | Upstream breaking-change coordination |
+| [Working groups](working-groups/README.md) | Temporary, outcome-based coordination |
+| [Ecosystem services](services/README.md) | Transparency for multiple markets and catalogs |
+| [Meetings](meetings/README.md) | Non-binding agendas and minutes |
+| [Internationalization](i18n/README.md) | English-default, separate Chinese documents |
 
 ## Participate
 

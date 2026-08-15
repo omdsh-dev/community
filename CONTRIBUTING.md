@@ -1,6 +1,6 @@
 # Contributing
 
-[简体中文](CONTRIBUTING.zh-CN.md) | English
+[Chinese](CONTRIBUTING.zh-CN.md) | English
 
 You do not need organization membership to contribute.
 
@@ -27,4 +27,4 @@ AI assistance is welcome when contributors review the result, follow licenses, d
 
 Access follows responsibility, not status. Trial advancement uses public contribution evidence, one non-conflicted sponsor, least privilege, and a 90-day review.
 
-Chinese and English are welcome. High-impact documents should maintain both versions. Material translation differences pause the decision until reconciled; neither language silently overrides the other during the trial.
+English is the default documentation language. Simplified Chinese lives in separate `.zh-CN.md` files; do not mix both languages in one document. High-impact documents maintain both versions. Material translation differences pause the decision until reconciled; neither version silently overrides the other during the trial.
