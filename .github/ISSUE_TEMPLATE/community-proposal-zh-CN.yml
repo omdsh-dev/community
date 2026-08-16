@@ -1,0 +1,49 @@
+name: 社区提案
+description: 提出不包含敏感信息的社区决定
+title: "[Proposal] "
+labels: ["proposal"]
+body:
+  - type: markdown
+    attributes:
+      value: "请勿提交漏洞、CoC 案件、secret、个人数据或恢复细节。"
+  - type: dropdown
+    id: type
+    attributes:
+      label: 类型
+      options: [信息, 讨论, 决定]
+    validations: {required: true}
+  - type: textarea
+    id: problem
+    attributes: {label: 问题与证据}
+    validations: {required: true}
+  - type: textarea
+    id: outcome
+    attributes: {label: 希望得到的结果}
+    validations: {required: true}
+  - type: textarea
+    id: authority
+    attributes: {label: 涉及资产与授权, description: "谁控制相关仓库、账号、品牌或资金？"}
+    validations: {required: true}
+  - type: textarea
+    id: impact
+    attributes: {label: 受影响群体及安全、权利、速度风险}
+    validations: {required: true}
+  - type: textarea
+    id: alternatives
+    attributes: {label: 替代方案、可逆性与回滚}
+    validations: {required: true}
+  - type: textarea
+    id: conflicts
+    attributes: {label: 利益冲突}
+    validations: {required: true}
+  - type: input
+    id: owner
+    attributes: {label: 建议负责人和复审日}
+    validations: {required: true}
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: 公开记录
+      options:
+        - label: 我理解相关控制者确认前它可能始终只是提案。
+          required: true

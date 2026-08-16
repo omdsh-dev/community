@@ -1,0 +1,49 @@
+name: Community proposal
+description: Propose a non-sensitive community decision
+title: "[Proposal] "
+labels: ["proposal"]
+body:
+  - type: markdown
+    attributes:
+      value: "Do not submit vulnerabilities, conduct cases, secrets, personal data, or recovery details."
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      options: [Information, Discussion, Decision]
+    validations: {required: true}
+  - type: textarea
+    id: problem
+    attributes: {label: Problem and evidence}
+    validations: {required: true}
+  - type: textarea
+    id: outcome
+    attributes: {label: Requested outcome}
+    validations: {required: true}
+  - type: textarea
+    id: authority
+    attributes: {label: Affected assets and authority, description: "Who controls the affected repositories, accounts, brand, or funds?"}
+    validations: {required: true}
+  - type: textarea
+    id: impact
+    attributes: {label: Affected groups and security, rights, speed risks}
+    validations: {required: true}
+  - type: textarea
+    id: alternatives
+    attributes: {label: Alternatives, reversibility, and rollback}
+    validations: {required: true}
+  - type: textarea
+    id: conflicts
+    attributes: {label: Conflicts of interest}
+    validations: {required: true}
+  - type: input
+    id: owner
+    attributes: {label: Proposed owner and review date}
+    validations: {required: true}
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: Public record
+      options:
+        - label: I understand this may remain a proposal until ratified.
+          required: true

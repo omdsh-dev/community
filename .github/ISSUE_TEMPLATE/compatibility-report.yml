@@ -1,0 +1,27 @@
+name: Upstream compatibility report
+description: Report a DeepSeek Harness change affecting community projects
+title: "[Compatibility] "
+labels: ["compatibility"]
+body:
+  - type: input
+    id: upstream
+    attributes: {label: Upstream version or commit}
+    validations: {required: true}
+  - type: textarea
+    id: evidence
+    attributes: {label: Change and evidence, description: "Do not include secrets or unpublished vulnerabilities."}
+    validations: {required: true}
+  - type: textarea
+    id: affected
+    attributes: {label: Affected projects and versions}
+    validations: {required: true}
+  - type: dropdown
+    id: status
+    attributes:
+      label: Current state
+      options: [Supported, Degraded, Paused, Unknown]
+    validations: {required: true}
+  - type: textarea
+    id: workaround
+    attributes: {label: Workaround, owner, and next update}
+    validations: {required: true}

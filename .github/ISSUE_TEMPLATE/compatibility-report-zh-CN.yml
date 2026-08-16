@@ -1,0 +1,27 @@
+name: 上游兼容报告
+description: 报告影响社区项目的 DeepSeek Harness 变化
+title: "[Compatibility] "
+labels: ["compatibility"]
+body:
+  - type: input
+    id: upstream
+    attributes: {label: 上游版本或 Commit}
+    validations: {required: true}
+  - type: textarea
+    id: evidence
+    attributes: {label: 变化与证据, description: "不要包含 secret 或未公开漏洞。"}
+    validations: {required: true}
+  - type: textarea
+    id: affected
+    attributes: {label: 受影响项目与版本}
+    validations: {required: true}
+  - type: dropdown
+    id: status
+    attributes:
+      label: 当前状态
+      options: [支持, 降级, 暂停, 未知]
+    validations: {required: true}
+  - type: textarea
+    id: workaround
+    attributes: {label: 临时方案、负责人和下次更新}
+    validations: {required: true}

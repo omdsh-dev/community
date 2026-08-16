@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions and ideas
+    url: https://github.com/omdsh-dev/community/discussions
+    about: Use Discussions for public questions and ideas.
+  - name: Sensitive security or conduct report
+    url: https://github.com/omdsh-dev/community/blob/main/SECURITY.md
+    about: Do not file a public issue; follow the private reporting policy.
