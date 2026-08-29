@@ -1,0 +1,17 @@
+# DSH Accessibility Working Group
+
+[Chinese](accessibility.zh-CN.md) | English
+
+- **Name:** DSH Accessibility Working Group (`accessibility-working-group`)
+- **Problem and concrete output:** Disabled developers need to complete DSH's core tasks independently, effectively, and safely. DSH should also help every developer produce more accessible digital content. The group maintains a version-scoped core remediation track, an additive accessibility companion, a repeatable test stack, an assistive-technology evidence matrix, and accessible-authoring proposals.
+- **Facilitator:** `mattheliu`; the facilitator coordinates work and records decisions but does not receive authority over repositories owned by other controllers.
+- **Participating projects:** `omdsh-dev/dsh-accessibility`, `omdsh-dev/deepseek-harness`, `omdsh-dev/community`, and later testkit, AT-lab, or authoring repositories only after working code requires a separate trust or release boundary.
+- **Public task and asynchronous route:** Issues in [`omdsh-dev/dsh-accessibility`](https://github.com/omdsh-dev/dsh-accessibility/issues); upstream product feedback in [deepseek-harness Discussion #4546](https://github.com/deepseek-ai/deepseek-harness/discussions/4546). Security, conduct, participant data, credentials, private conversations, and unredacted research records never enter public issues.
+- **Meeting cadence:** Asynchronous by default; triage every two weeks when active work requires it; one public monthly status update. Meetings produce proposals unless a repository controller delegated a decision in advance.
+- **Success measure:** Publish and maintain a versioned support matrix; re-audit the core candidate against the current upstream line; operate deterministic browser gates plus documented manual AT scenarios; collect consented, de-identified evidence from real assistive-technology users; and keep default-product defects in core rather than masking them with a DOM overlay.
+- **Start and expiry:** Starts 2026-08-29. Initial trial review is 2026-09-28 under the community governance trial. At review, continue, simplify, pause, or renew with an updated owner and date.
+- **Required access and confirming controller:** The `omdsh-dev/accessibility-working-group` team has `maintain` on `dsh-accessibility`, `push` on the DSH fork, and `triage` on `community`. `omdsh-dev` is the confirming controller. npm publishing, organization administration, security intake, and private research archives remain with their existing least-privilege controllers.
+- **Conflicts or dependencies:** Upstream DSH changes quickly and its public pull-request intake is not currently available to this account. Support claims depend on exact DSH, browser, operating-system, assistive-technology, language, and configuration versions. Automated checks cannot certify spoken output or usability.
+- **Archive and handoff:** Public decisions, redacted evidence, compatibility ledgers, and release criteria stay in `dsh-accessibility`. Raw research data, if retained at all, stays in a purpose-specific private repository with consent, retention, and deletion controls. On expiry, remove unneeded access and record the status and next owner.
+
+The group follows the community [Governance](../GOVERNANCE.md), [Code of Conduct](../CODE_OF_CONDUCT.md), [Contributing guide](../CONTRIBUTING.md), and the project-level privacy and evidence rules in `dsh-accessibility`.

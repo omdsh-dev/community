@@ -9,3 +9,7 @@
 早期可考虑上游兼容、新人体验和社区运营工作组。安全或 CoC 响应不是公开工作组，应采用受限案件流程。
 
 请使用 [`charter-template.zh-CN.md`](charter-template.zh-CN.md)。工作组不能直接授予仓库权限，仍须由相应控制者处理。
+
+## 活跃试行
+
+- [DSH 无障碍工作组](accessibility.zh-CN.md)——2026-08-29 开始，2026-09-28 首次复审。

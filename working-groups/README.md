@@ -9,3 +9,7 @@ A group needs a concrete outcome, facilitator, participating projects, public ta
 Likely early groups include upstream compatibility, newcomer experience, and community operations. Security or conduct response is not a public working group and follows restricted case handling.
 
 Use [`charter-template.md`](charter-template.md). A group cannot grant repository access; the relevant controller must do so separately.
+
+## Active trials
+
+- [DSH Accessibility Working Group](accessibility.md) — starts 2026-08-29; initial review 2026-09-28.
