@@ -21,6 +21,8 @@
 
 PR 保持单一重点，说明影响和验证，并关联 Issue 或提案。各项目维护者负责本仓库技术决定；跨项目政策还应关联社区提案。
 
+中文 PR 模板位于 `.github/PULL_REQUEST_TEMPLATE/pull_request_template.zh-CN.md`。GitHub 只会自动套用英文模板，中文模板需要显式选择：在创建 PR 的对比页 URL 后补上 `?template=pull_request_template.zh-CN.md`。
+
 允许 AI 辅助贡献，但贡献者必须审阅结果、遵守许可证，在来源或审阅受影响时披露重要使用，并对提交负责。禁止提交 secret、私密数据或无权使用的材料。
 
 ## 权限与语言

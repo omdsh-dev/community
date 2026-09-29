@@ -21,6 +21,8 @@ Actionable issues should state the problem, acceptance criteria, affected projec
 
 Keep a PR focused, explain impact and validation, and link the issue or proposal. Project maintainers own technical decisions in their repositories; cross-project policy also links a community proposal.
 
+A Simplified Chinese PR template lives at `.github/PULL_REQUEST_TEMPLATE/pull_request_template.zh-CN.md`. GitHub applies the English template automatically, so a Chinese template must be selected explicitly: append `?template=pull_request_template.zh-CN.md` to the compare URL when you open the pull request.
+
 AI assistance is welcome when contributors review the result, follow licenses, disclose material use when provenance/review is affected, and remain responsible. Never include secrets, private data, or unlicensed material.
 
 ## Access and language
