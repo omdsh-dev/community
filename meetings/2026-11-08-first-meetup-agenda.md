@@ -14,7 +14,7 @@
 |---|---|---|
 | 18:40–19:25 | Newcomer introductions | About 1 minute each: who you are, what you have made, what you are interested in |
 | 19:25–19:45 | Topic talk | @ccch1mneyyy (dsh-go author); topic TBD |
-| 19:45–20:05 | Discussion | Around the talk and introductions |
+| 19:45–20:05 | Discussion | Around the talk and intros; optional: defining what you want in AI-assisted development (@zhu1090093659) |
 | 20:05–20:20 | Open floor | A question / what I can help with / what I need |
 | 20:20–20:30 | Read-back and close | Next meetup, minutes |
 
